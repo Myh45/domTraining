@@ -11,7 +11,6 @@ console.log("version-1:",user1.innerHTML + ',' + user5.innerHTML + ','
     + user2.innerHTML + ',' + user4.innerHTML + ',' + user3.innerHTML);
 
 //version-2
-//updated
-const listArr =document.getElementById('list').children;
+const listArr = document.getElementById('list').children;
 console.log("\nversion-2:",listArr[0].innerHTML + ',' + listArr[4].innerHTML + ','
     + listArr[1].innerHTML + ',' + listArr[3].innerHTML + ',' + listArr[2].innerHTML);
